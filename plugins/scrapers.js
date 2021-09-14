@@ -1031,7 +1031,7 @@ else if (config.WORKTYPE == 'public') {
           )
       },
     )
-      Mypnky.addCommand({ pattern: 'number ?(.*)', fromMe: false, desc: 'owner number' }, (async (message, match) => {
+      MyPnky.addCommand({ pattern: 'number ?(.*)', fromMe: false, desc: 'owner number' }, (async (message, match) => {
 
 
 const vcard = 'BEGIN:VCARD\n'
