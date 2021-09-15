@@ -1,6 +1,7 @@
+
 /* Copyright (C) 2020 Yusuf Usta.
-re edited by nabuhan  
-Ruby 
+re edited by afnan-plk  
+PINKY V2 
 */
 
 const { Sequelize } = require('sequelize');
@@ -29,17 +30,16 @@ module.exports = {
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
-    AFNN: process.env.TAG_REPLY === undefined ? '91938349160@s.whatsapp.net' : process.env.TAG_REPLY,
+    AFNN: process.env.TAG_REPLY === undefined ? '919072790587@s.whatsapp.net' : process.env.TAG_REPLY,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
-    TALKING_RUBY: process.env.TALKING_RUBY === undefined ? 'false' : process.env.TALKING_RUBY,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
     WEL_GIF: process.env.WEL_GIF === undefined ? 'https://i.imgur.com/nErXUGj.mp4' : process.env.WEL_GIF,
     GIF_BYE: process.env.GIF_BYE === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.GIF_BYE,
     BOTPLK: process.env.BOT_NAME === undefined ? 'PINKY BOT' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
-    FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
+    TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
@@ -56,7 +56,7 @@ module.exports = {
     PLKS: process.env.THERI_LIST_GP === undefined ? false : process.env.THERI_LIST_GP,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    MAHN: process.env.MAAN === undefined ? '918289836232,0' : process.env.MAAN, //dont change thise , if you change this some plugins created by me might not work for others or might have error ( bcoz this is a api key )
+    MAHN: process.env.MAAN === undefined ? '919072790587,0' : process.env.MAAN, //dont change thise , if you change this some plugins created by me might not work for others or might have error ( bcoz this is a api key )
     BRANCH: 'master',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
