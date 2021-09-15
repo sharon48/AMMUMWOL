@@ -1,4 +1,4 @@
-!---------- Typing SVG ---------->
+
 <p align="center">
     <a href="https://avatars.githubusercontent.com/u/85664936?v=4">
         <img
