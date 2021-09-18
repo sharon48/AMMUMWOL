@@ -147,8 +147,8 @@ if (config.WORKTYPE == 'private') {
             return;
         }
 
-        if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'ᴘɪɴᴋʏ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀꜰɴᴀɴᴘʟᴋ' , MessageType.text, { quoted: message.data });
+        if (config.OWNER == 'default') {
+            await message.client.sendMessage(message.jid,'RUBY BOT CREATED BY NABUHANDBZ' , MessageType.text, { quoted: message.data });
         }
         else {
             await message.client.sendMessage(message.jid,config.PLK, MessageType.text, { quoted: message.data });
