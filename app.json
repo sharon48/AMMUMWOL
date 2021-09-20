@@ -1,5 +1,5 @@
 {
-    "name": "RUBY-BOT BY NABUHAN DBZ",
+    "name": "RUBY-MOWL BY NABUHAN DBZ",
     "description": "pinky bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.imgur.com/YqVlUfk.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
@@ -41,6 +41,11 @@
             "required": true,
             "value": "false"
         },
+        "PM_BLOCK": {
+            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "required": true,
+            "value": "false"
+        },
          "STICKER_REPLY": {
             "description": "if you need Automatic sticker reply type'true'. Otherwise false",
             "required": false,
@@ -57,11 +62,6 @@
         },
          "THERI_KICK_PM": {
             "description": "will block members if they use bad words given in THERI_LIST_PM , if true ",
-            "required": true,
-            "value": "false"
-        },
-        "TALKING_RUBY": {
-            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
             "value": "false"
         },
@@ -134,6 +134,11 @@
             "description": "heading for .list command reply",
             "required": false,
             "value": "•━━━╼⤏RUBY BOT⤎╾━━━•"
+        },      
+        "TALKING_PINKY": {
+            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
         },
         "HEROKU_API_KEY": {
             "description": "Herokuda API Keyiniz. Heroku API Key.",
@@ -148,11 +153,6 @@
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
             "required": false,
             "value": "false"
-        },
-        "TAG_HEADER": {
-            "description": "Heading when taging all",
-            "required": false,
-            "value": "hear me friends"
         },
         "UNMUTE_MESSAGE": {
             "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
@@ -172,7 +172,7 @@
         "WORK_TYPE": {
             "description": "ruby  Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. and if you use “admin”, only admin can use bot and not all feature (only features needed to maintain a standerd group)",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": "Herokuda uygulama adı. Heroku APP Name.",
