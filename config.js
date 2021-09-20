@@ -1,4 +1,3 @@
-
 /* Copyright (C) 2020 Yusuf Usta.
 re edited by afnan-plk  
 PINKY V2 
@@ -25,6 +24,7 @@ module.exports = {
     REMOVE: process.env.THERI_KICK_GP === undefined ? 'false' : process.env.THERI_KICK_GP,
     AFN: process.env.ALL_CAPTION === undefined ? 'MADE BY RUBY' : process.env.ALL_CAPTION,
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
+    PM_BLOCK: process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK,
     Z_PINKY_AI: process.env.Z_PINKY_AI === undefined ? 'false' : process.env.Z_PINKY_AI,
     PLK: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
@@ -52,7 +52,6 @@ module.exports = {
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
-    TAGPLK: process.env.TAG_HEADER === undefined ? 'plk' : process.env.TAG_HEADER,
     PLKS: process.env.THERI_LIST_GP === undefined ? false : process.env.THERI_LIST_GP,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
