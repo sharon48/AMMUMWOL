@@ -760,7 +760,7 @@ if (config.AUTOBİO == 'false') auto_bio = 'Off'
 │ ▢ .sᴇᴛᴠᴀʀ
 │ 
 │
-│   ❏ RUBY💝FILA ❏
+│   ❏ RUBY MOWL ❏
 ╰──────────────────╯
 `}) 
 
