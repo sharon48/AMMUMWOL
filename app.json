@@ -41,6 +41,11 @@
             "required": true,
             "value": "false"
         },
+          "BGM_DURATION": {
+            "description": "FUNY BGM DURATION  codded by Nexus",
+            "required": false,
+            "value": "39999600"
+        },
         "PM_BLOCK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
             "required": true,
