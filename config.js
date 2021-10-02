@@ -40,6 +40,7 @@ module.exports = {
     BOTPLK: process.env.BOT_NAME === undefined ? 'RUBY BOT' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
+    SAID: process.env.BGM_DURATION === undefined ? '39999600' : process.env.BGM_DURATION,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
