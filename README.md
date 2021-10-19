@@ -15,7 +15,7 @@
 
 
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/YqVlUfk.jpg" width="200" height="150"/>
+  <img border-radius: 15px src="https://i.imgur.com/20211017_164923.jpg" width="200" height="150"/>
   <p align="center">
 <a href="#"><img title="Poocha Ser" src="https://img.shields.io/badge/-RUBY%20MWOL-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
