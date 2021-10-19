@@ -133,8 +133,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('ruby 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 👌💝👍'));
-            await conn.sendMessage(conn.user.jid, "Ruby Is Perfectly Working", MessageType.text);
+            chalk.green.bold('AMMUMWOL 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 👌💝👍'));
+            await conn.sendMessage(conn.user.jid, "AMMUMWOL Is Perfectly Working", MessageType.text);
             await conn.sendMessage(conn.user.jid, "``` WORKING " + config.WORKTYPE + "```" , MessageType.text);
     });
     
@@ -142,8 +142,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         if (!m.hasNewMessage) return;
         if (!m.messages && !m.count) return;
         let msg = m.messages.all()[0];
-        if (msg.key && msg.key.remoteJid == 'status@broadcast') return;
-
+        if (msg.key && msg.key.remoteJid
+        
         if (config.NO_ONLINE) {
             await conn.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
@@ -268,7 +268,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '__RUBY BOT_☠☠_[error] ' +
+                                await conn.sendMessage(conn.user.jid, '__AMMUMWOL BOT_☠☠_[error] ' +
                                     '\n\n*👻 ' + error + '*\n'
                                     , MessageType.text);
                             }
